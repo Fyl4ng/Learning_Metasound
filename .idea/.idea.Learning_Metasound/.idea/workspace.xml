@@ -13,8 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6416caf6-0af1-4085-a0b0-d68922b3c2a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/PannerMetasoundNode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/PannerMetasoundNode.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning_Metasound/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning_Metasound/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/Learning_MetasoundPlugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/Learning_MetasoundPlugin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Metasound/TestMetasound.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Metasound/TestMetasound.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Experimental/MetasoundExperimental/Source/MetasoundExperimentalRuntime/Private/MetasoundExperimentalRuntimeModule.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundBitcrusherNode.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/AutomationUtils/MCPPublic.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,7 +38,9 @@
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/Win/WinResources.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Serialization/CompressedBuffer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/LearningPlugin_Metasound.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/PannerMetasoundNode.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/LearningPlugin_Metasound.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/PannerMetasoundNode.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -53,6 +56,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -178,7 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1764098585374</updated>
       <workItem from="1764098587400" duration="4969000" />
-      <workItem from="1764104648584" duration="397000" />
+      <workItem from="1764104648584" duration="591000" />
+      <workItem from="1764185593810" duration="6294000" />
     </task>
     <servers />
   </component>
