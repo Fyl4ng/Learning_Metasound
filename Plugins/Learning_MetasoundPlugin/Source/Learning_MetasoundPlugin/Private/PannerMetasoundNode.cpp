@@ -13,8 +13,6 @@
 #include "MetasoundStandardNodesCategories.h"
 #include "MetasoundFacade.h"
 #include "MetasoundParamHelper.h"
-#include "Field/FieldSystemNoiseAlgo.h"
-#include "Materials/MaterialExpressionDepthOfFieldFunction.h"
 #include "Math/UnrealMathUtility.h"
 
 #define LOCTEXT_NAMESPACE "MetasoundStandardNodes_PannerMetasoundPlugin"
@@ -27,6 +25,7 @@ namespace Metasound
 		METASOUND_PARAM(InputAudio, "Audio In", "Mono input signal");
 		METASOUND_PARAM(PanRate, "Pan Rate", "How many L-R cycles per second.");
 		METASOUND_PARAM(PanDepth, "Pan Depth", "0..1: how far to pan left/right");
+		
 		METASOUND_PARAM(OutputLeft, "Left", "Left output channel");
 		METASOUND_PARAM(OutputRight, "Right", "Right output channel");
 	}
@@ -164,14 +163,12 @@ namespace Metasound
 			const float Rate = FMath::Max(0.f, *PanRate);
 			const float Depth = FMath::Clamp(*PanDepth, 0.f, 1.f);
 			
-			const float TwoPi = 2.0f * PI;
+			const float Result = Rate / SampleRate;
 			
+			//Check UnrealMathUtility.h for Macros related to Math
 			//DSP Loop
 			for (int32 i = 0; i < NumFrames; i++)
 			{
-				//Mono Input Sample
-				const float InSample = InData[i];
-				
 				//Using a LFO to generate a sin wave modulation
 				//I will use the LFO to move the stereo gain left - right
 				const float PanLfo = FMath::Sin(Phase);
@@ -181,12 +178,12 @@ namespace Metasound
 				//Here I am using this formula to make the phase complete f cycles per second
 				//For example if I want 440hz I would need 440 cycles or the sound wont have the right pitch
 				//If DSP Oscillators dont match the definition of frequency they will produce the wrong note.
-				Phase += TwoPi * Rate / SampleRate;
+				Phase += TWO_PI * Result;
 				
 				//2PI angle will be the same as Phase 0 sooo I am keeping the wave stable by checking it
-				if (Phase > TwoPi)
+				if (Phase > TWO_PI)
 				{
-					Phase -= TwoPi;
+					Phase -= TWO_PI;
 				}
 				
 				//Here PanLfo is the movement and Depth is the range of the momvent
@@ -196,13 +193,16 @@ namespace Metasound
 				//Remapping value from 0 to 1 because the Equal-power formula expects it
 				const float t = 0.5f * (Pan + 1.f);
 				
-				//Equal-Power Furmala
+				//Equal-Power Formula
 				//When T 0 = full left
 				//When T 0.5 = center
 				//When T 1 - Full Right]
 				//Using HALF_PI here because of geometry of panning, I want to visualize the curve as 90 degres of the circle not 180
 				const float LeftGain = FMath::Cos(t * HALF_PI);
 				const float RightGain = FMath::Sin(t * HALF_PI);
+				
+				//Mono Input Sample
+				const float InSample = InData[i];
 				
 				//Feeding data for the Outputs
 				LeftData[i] = InSample * LeftGain;
