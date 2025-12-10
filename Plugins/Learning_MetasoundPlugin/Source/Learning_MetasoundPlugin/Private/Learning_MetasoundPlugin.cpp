@@ -3,6 +3,7 @@
 #include "Learning_MetasoundPlugin.h"
 
 #include "MetasoundFrontendModuleRegistrationMacros.h"
+#include "MetasoundNodeRegistrationMacro.h"
 
 #define LOCTEXT_NAMESPACE "FLearning_MetasoundPluginModule"
 

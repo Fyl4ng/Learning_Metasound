@@ -26,6 +26,7 @@ public class Learning_MetasoundPlugin : ModuleRules
 			new string[]
 			{
 				"Core",
+				"MetasoundStandardNodes",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,12 +39,13 @@ public class Learning_MetasoundPlugin : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+				"AudioExtensions",
 				"MetasoundEngine",
-				"MetasoundEditor",
 				"MetasoundFrontend",
 				"MetasoundGraphCore",
-				"MetasoundStandardNodes",
-				"MetasoundGraphCore"
+				"MetasoundGenerator",
+				"MetasoundGraphCore",
+				"SignalProcessing"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

@@ -14,9 +14,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6416caf6-0af1-4085-a0b0-d68922b3c2a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning_Metasound/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning_Metasound/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Metasound/TestMetasound.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Metasound/TestMetasound.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_Metasound.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_Metasound.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_Metasound.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_Metasound.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Learning_MetasoundPlugin.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Learning_MetasoundPlugin.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/Learning_MetasoundPlugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/Learning_MetasoundPlugin.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/PannerMetasoundNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/PannerMetasoundNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/LearningPlugin_Metasound.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/LearningPlugin_Metasound.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +34,34 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Experimental/MetasoundExperimental/Source/MetasoundExperimentalRuntime/Private/MetasoundExperimentalRuntimeModule.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Harmonix/Source/HarmonixMetasound/Public/HarmonixMetasound/DataTypes/MidiControllerID.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundFrontend/Private/MetasoundArrayRandomNode.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundBitcrusherNode.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundStereoPannerNode.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/Android/AndroidPlatform.Automation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/AutomationUtils/MCPPublic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/IOS/ExportOptions.plist.template" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/Linux/LinuxPlatform.Automation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/Scripts/CheckBalancedMacros.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/AutomationTool/Win/WinResources.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Core/UnrealEngineTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Horde/Jobs/Templates/TemplateMessages.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.Serialization/CompressedBuffer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Runtime/Core/Public/Math/UnrealMathUtility.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Runtime/Core/Public/Math/UnrealMathUtility.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Learning_MetasoundPlugin.uplugin" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Learning_MetasoundPlugin.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/LearningPlugin_Metasound.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/Learning_MetasoundPlugin.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Private/PannerMetasoundNode.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/LearningPlugin_Metasound.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/PannerMetasoundNode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/LearningPlugin_Metasound.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Learning_MetasoundPlugin/Source/Learning_MetasoundPlugin/Public/PannerMetasoundNode.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Learning_Metasound/Learning_MetasoundCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -59,7 +78,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,6 +88,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CidrLocalAttachDebugger.recentlyUsed">
+      <recent name="com.jetbrains.rider.cpp.debugger.RiderCppLLDBDriverConfiguration" />
+    </key>
+  </component>
   <component name="RunManager" selected="C/C++ Project.Learning_Metasound">
     <configuration name="Learning_Metasound" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -186,6 +210,12 @@
       <workItem from="1764104648584" duration="591000" />
       <workItem from="1764185593810" duration="6784000" />
       <workItem from="1764262932196" duration="2243000" />
+      <workItem from="1764793441932" duration="3796000" />
+      <workItem from="1764797314865" duration="590000" />
+      <workItem from="1764869630076" duration="350000" />
+      <workItem from="1764870093844" duration="160000" />
+      <workItem from="1764871718864" duration="275000" />
+      <workItem from="1765400623794" duration="20000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,7 @@
  */
 class LEARNING_METASOUNDPLUGIN_API LearningPlugin_Metasound
 {
+	
 public:
 	LearningPlugin_Metasound();
 	~LearningPlugin_Metasound();
